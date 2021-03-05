@@ -1,0 +1,23 @@
+<!DOCTYPE html><html lang="en">
+  <head>
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <title>雲科共食廚房-會員系統</title>
+  </head>
+  <body>
+    <script src="scripts/members.js"></script>
+    <h3><a href="index.html">回首頁</a></h3>
+	  <div id="sign" style="display:0;">
+    <h4>電子信箱：<input id="email" class="email" required="" placeholder="E-mail"></h4>
+	  <h4>密碼：<input id="password" class="password" required="" type="password" placeholder="密碼"></h4>
+    <button id="submit">送出</button> 
+    <input type="button" id="btn" value="隱藏" onclick='show(this,"sign")'>
+      <br><br><br>
+    <a href="new.html">註冊</a>
+    </div>
+    <br><br><br>
+    <input type="button" id="btn" value="登出" onclick="out()">
+  </body>
+</html>
